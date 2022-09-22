@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: 0; */
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: #454545;
+    height: 65rem;
+    width: 100%;
+}
+nav{
+    float: right;
+    margin-left: 10rem;
+    margin-top: 2.1rem;
+}
+.nav-item{
+    cursor: pointer;
+    color: #fff;
+    margin-left: 3rem;
+    text-decoration: none;
+}
+#btn-talk{
+    background-color: #454545;
+    width: 9rem;
+    height: 3.1rem;
+    border: 1px solid #d8ae25cb;
+    border-radius: 1.2rem;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-right: 3rem;
+}
+#btn-talk:hover{
+    background-color: #fff;
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transform: scale(1.05);
+}
+.logo{
+    width: 13rem;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+.logo img{
+    width: 7rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+}
+.header-elements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+.header-left{
+    margin-right: 0px;
+    margin-left: 15rem;
+}
+.header-image{
+    width: 40rem;
+    margin-left: 9rem;
+    border-radius: 0.5rem;
+}
+.header-right{
+    color: #fff;
+    margin-left: 10rem;
+    width: 50vw;
+}
+.header-right h1{
+    font-size:  4.5rem;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+}
+.header-right p{
+    font-size: 1.8rem;
+    width: 29vw;
+    margin-top: 2rem;
+    columns:  #dbdbdb;
+    line-height: 2.5rem;
+}
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    align-items: center;
+}
+.subscribe input{
+    width: 40rem;
+    height: 5rem;
+    border: none;
+    padding-left: 1.2rem;
+    margin-top: 1rem;
+}
+.subscribe input::placeholder{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.subscribe button{
+    width: 15rem;
+    height: 4rem;
+    margin-left: -15.5rem;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #77ad98;
+    margin-top: 0.9rem;
+    cursor: pointer;
+}
+.subscribe button:hover{
+    background-attachment: #5ec09a;
+    transform: scale(1.03);
+}
+
+.target{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+}
+.target h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.target .metrics{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.metrics .metric{
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.metric h4{
+    font-size: 3rem;
+
+}
+.metric p{
+    margin-top: 1rem;
+}
+.target img{
+    width: 60vw;
+    margin-top: 5rem;
+    border-radius: 1rem;
+}
+.works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+.works h2{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 3rem;
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4rem 10rem;
+}
+.work img{
+    width: 30vw;
+}
+.work .text{
+    width: 30vw;
+}
+.work .work-space{
+    width: 9rem;
+}
+.work h3{
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.2rem;
+}
+.work p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+.work button{
+    margin-top: 4rem;
+}
+.btn-primary{
+    width: 10rem;
+    height: 3.0rem;
+    background-color: #5ec09a;
+    border: none;
+    color: #fff;
+    padding: 0.2rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+.btn-primary:hover{
+    background-color: #5ec09a;
+    transform: scale(1.03);
+}
+
+.team{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.team .team-heading{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.team .team-heading h3{
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.2rem;
+    width: 30vw;
+    margin-left: 15rem;
+}
+.team .team-heading p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    width: 40vw;
+}
+.team-members{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+    margin-right: 3rem;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.team-memeber{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.team-memeber img{
+    width: 20vw;
+    height: 35rem;
+    border-radius: 1rem;
+}
+.team-memeber h5{
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+.team-memeber p{
+    width: 20vw;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #454545;
+}k
+.team button{
+    margin-top: 3rem;
+}
+footer{
+    width: 100%;
+    height: 30rem;
+    background-color: #454545;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
+footer .footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer .footer-links h4{
+    color: #fff;
+}
+.footer-links li{
+    list-style: none;
+    margin-top: 0.5rem;
+
+}
+.footer-links a{
+    text-decoration: none;
+    color: #c9c9c9;
+}
+.logo-social{
+    margin-top: -2rem;
+    margin-left: 15rem;
+}
+.footer-line{
+    margin-top: -2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: -2rem;
+    border-bottom: 1px solid #c9c9c9;
+}
+.social-icons{
+    float: right;
+    margin-right: 15rem;
+    margin-left: auto;
+    cursor: pointer;
+}
+.footer-link{
+    margin-top: 1rem;
+}
+.footer-logo{
+    cursor: pointer;
+    width: 9rem;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
